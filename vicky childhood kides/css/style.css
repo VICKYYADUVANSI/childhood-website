@@ -1,0 +1,626 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Love Ya Like A Sister', 'Shadows Into Light Two';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Love Ya Like A Sister'
+}
+
+body p {
+
+    font-size: 17px;
+
+    letter-spacing: 2px;
+}
+
+li {
+    list-style: none;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'Love Ya Like A Sister';
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.93);
+    font-family: 'Love Ya Like A Sister';
+
+}
+
+.button-area {
+    width: 100%;
+    float: left;
+}
+
+.button-area a button {
+    font-size: 16px;
+    background-color: rgb(180, 164, 115);
+    border: none;
+    padding: 15px;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.logo-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/banner-final1.jpg);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.logo-inr {
+    width: 100%;
+    float: left;
+
+
+
+}
+
+.logo-100 img {
+    margin-top: 100px;
+}
+
+.nav-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: visible;
+}
+
+.nav-inr {
+    width: 100%;
+    float: left;
+}
+
+.nav-100 {
+    width: 100%;
+    float: left;
+}
+
+
+.nav-100 ul {
+    width: 100%;
+    float: left;
+}
+
+#navbar {
+    position: relative;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.nav-area .left-bow {
+    position: absolute;
+    left: -67px;
+}
+
+.nav-area .right-bow {
+    position: absolute;
+    right: 16px;
+}
+
+.nav-area .left-bow img {
+    width: 83px;
+    position: absolute;
+}
+
+.nav-area .right-bow img {
+    width: 83px;
+    position: absolute;
+}
+
+.navbar-nav {
+    margin: 0;
+    background-color: #d9ba7c;
+    width: 100%;
+    padding: 5px 0;
+}
+
+/*.navbar-nav:before{content:'';position:absolute;background-image:url(../img/menu-left.png);width: 100%;height: 147px;background-repeat: no-repeat;left: -156px;top: 30px;}
+.navbar-nav:after{ content:''; position:absolute; background-image:url(../img/menu-left.png);}*/
+.navbar-brand {
+
+    padding-left: 30px;
+}
+
+.navbar {
+    position: absolute;
+    min-height: auto;
+    margin-bottom: 0;
+    border: none;
+}
+
+.about-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 100px 0;
+
+}
+
+.about-inr {
+    width: 100%;
+    float: left;
+}
+
+.about-50 {
+    width: 48%;
+    float: left;
+    padding: 0 1%;
+}
+
+.about-50-100 {
+    width: 100%;
+    float: left;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+#slider {
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.slides {
+    overflow: hidden;
+    animation-name: fade;
+    animation-duration: 1s;
+    display: none;
+}
+
+.about-area img {
+    width: 100%;
+}
+
+#dot {
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+.dot {
+    display: inline-block;
+    border-radius: 50%;
+    background: #d3d3d3;
+    padding: 8px;
+    margin: 10px 5px;
+}
+
+.active {
+    background: black;
+}
+
+@media (max-width:567px) {
+    #slider {
+        width: 100%;
+
+    }
+}
+
+#heading {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0px;
+
+}
+
+.about-img {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.about-img img {
+    position: absolute;
+    top: -556px;
+    width: 100%;
+}
+
+
+
+.about-50-100 h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #6b501e;
+
+}
+
+.about-50-100 h3 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #353531;
+
+}
+
+.about-50-100 h2 {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #838246;
+
+}
+
+.about-50-100 p {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+
+
+
+.services-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+    background-image: url(../img/about-2.png);
+
+    background-size: 1260px auto;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.services-inr {
+    width: 100%;
+    float: left;
+}
+
+.services-33 {
+    width: 31.33%;
+    padding: 0 1%;
+    float: left;
+    padding-top: 50px;
+}
+
+.services-33-100 {
+    width: 100%;
+    float: left;
+}
+
+
+
+
+
+.classes-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+    background-image: url(img/footer-right.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom right;
+    background-color: #f0efe6;
+}
+
+.classes-inr {
+    width: 100%;
+    float: left;
+}
+
+.classes-33 {
+    width: 31.33%;
+    padding: 0 1%;
+    float: left;
+    padding-top: 50px;
+}
+
+.classes-33-100 {
+    width: 100%;
+    float: left;
+}
+
+.heading h1 {
+    color: #716321;
+    text-align: center;
+
+}
+
+.heading h3 {
+    color: #38341e;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.heading img {
+    padding-left: 475px;
+}
+
+.cards span img {
+    width: 100%;
+    height: auto;
+}
+
+.cards h2 {
+    padding-top: 20px;
+}
+
+.cards p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.button-area-1 a button {
+    font-size: 16px;
+    background-color: rgb(180, 164, 115);
+    border: none;
+    padding: 15px;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    align-items: center;
+}
+
+
+
+
+.photo-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+    background-color: #e0dcd1;
+}
+
+
+.photo-inr {
+    width: 100%;
+    float: left;
+}
+
+.photo-25 {
+    width: 24.33%;
+    padding: 0 1%;
+    float: left;
+    padding-top: 50px;
+}
+
+.classes-25-100 {
+    width: 100%;
+    float: left;
+}
+
+
+.button-area-2 a button {
+    font-size: 12px;
+    background-color: #d9ba7c;
+    border: none;
+    padding: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.banner-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/cute-family-in-a-sunny-park-3V7Q6XF.jpg);
+    background-attachment: fixed;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-area h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+    color: #8e887e;
+}
+
+.banner-area .banner-inr {
+    text-align: left;
+}
+
+.banner-area h3 {
+    font-size: 25px;
+    color: #B1966B;
+}
+
+.banner-area .button-area a button {
+    background-color: #B1966B;
+    transform: translate(470px);
+}
+.banner-area .cards{
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1230px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'Love Ya Like A Sister';
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+.testimonial-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+    background-image: url(../img/testi.jpg);
+
+    background-size: 1260px auto;
+    background-repeat: no-repeat;
+  
+
+
+
+}
+
+.testimonial-inr {
+    width: 100%;
+    float: left;
+}
+
+.testimonial-33 {
+    width: 31.33%;
+    padding: 0 1%;
+    float: left;
+    padding-top: 50px;
+}
+
+.testimonial-33-100 {
+    width: 100%;
+    float: left;
+}
+
+.testimonial-33-100 .dot-img{
+    width: 100%;
+    height: 120px;
+  
+    background-position: 48px;
+    padding-bottom: 10px;
+    margin-top: -64px;
+    align-items: center;
+    padding-left: 100px;
+    
+}
+.testimonial-33-100 p{
+    font-family: 'Shadows Into Light Two';
+    font-size: medium;
+    margin-top: -30px;
+}
+.testimonial-33-100 h4{
+    color: #a2b568;
+}
+
+.testimonial-33-100 .cards{
+    background-color: #f8f7f392;
+}
+
+.footer-area {
+    width: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    
+    background-color: #d5e6e9;
+    
+    background-image: url(../img/footer-final.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: 80%;
+}
+
+
+.footer-inr {
+    width: 100%;
+    float: left;
+}
+
+.footer-25 {
+    width: 24.33%;
+    padding: 0 1%;
+    float: left;
+    padding-top: 50px;
+}
+
+.footer-25-100 {
+    width: 100%;
+    float: left;
+}
+
+
+
+
+.modal-body h1 {
+    font-weight: 900;
+    font-size: 2.3em;
+    text-transform: uppercase;
+}
+.modal-body a.pre-order-btn {
+    color: #000;
+    background-color: gold;
+    border-radius: 1em;
+    padding: 1em;
+    display: block;
+    margin: 2em auto;
+    width: 50%;
+    font-size: 1.25em;
+    font-weight: 6600;
+}
+.modal-body a.pre-order-btn:hover {
+    background-color: #000;
+    text-decoration: none;
+    color: gold;
+}
